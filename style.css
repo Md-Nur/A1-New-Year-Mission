@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* hero section  */
+
+.hero {
+  background-image: url("./resources/Rectangle\ 15.png"),
+    url("./resources/Banner\ Image.png");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  max-width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: 50px auto;
+}
+.hero-content {
+  padding: 177px 344px;
+}
+
+.hero-content > p {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-content > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
+
+/* Group 50 section  */
+.grp50 {
+  margin: 120px auto;
+  max-width: 803px;
+}
+
+.grp50 > h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.grp50 > p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.grp50 > h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
