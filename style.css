@@ -10,10 +10,12 @@
     url("./resources/Banner\ Image.png");
   background-position: center, center;
   background-repeat: no-repeat;
+  background-size: cover;
   max-width: 1320px;
   height: 600px;
   flex-shrink: 0;
-  margin: 50px auto;
+  margin: 50px auto 120px;
+  border-radius: 16px;
 }
 .hero-content {
   padding: 177px 344px;
@@ -76,4 +78,350 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 48px;
+}
+
+/* grupo 100 */
+.grp100 {
+  max-width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: 120px auto;
+  background-image: url("resources/Vector.png"), url("/resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grp100-content {
+  padding-top: 126px;
+  padding-left: 126px;
+}
+.grp100-content1 {
+  padding-right: 138px;
+  padding-top: 68px;
+}
+
+.grp100-content > h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+
+.grp100-content > p {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.grp100-content > a {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 32px;
+  margin-top: 48px;
+}
+
+/* group 93 */
+.grp93 {
+  border-radius: 8;
+  height: 482px;
+  max-width: 1320px;
+  margin: 120px auto;
+  background-image: url("/resources/Vector2.png");
+  background-size: cover;
+}
+
+.grp93-content {
+  padding: 100px;
+  width: 550px;
+  margin: auto;
+}
+
+.grp93-content > h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.grp93-content > h4 > span {
+  color: #f00;
+}
+
+/* Group 48 */
+
+.grp48 {
+  max-width: 1320px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grp48-content1 {
+  max-width: 393px;
+}
+.grp48-content1 > h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.grp48-content1 > h2 {
+  margin-top: 16px;
+  margin-bottom: 22px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.grp48-content1 > p {
+  margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.grp48-content2 {
+  padding: 49px;
+  border: 15px solid #f00;
+  height: 365px;
+  width: 365px;
+  border-radius: 9999px;
+}
+
+.grp48-content3 {
+  max-width: 276px;
+  height: 100%;
+  padding-top: 112px;
+}
+
+.grp48-content3 h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.grp48-content3 p {
+  margin-top: 16px;
+  margin-bottom: 43px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.grp48-content3 img {
+  margin-top: 43px;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+/* group 84 */
+
+.grp84 {
+  max-width: 1320px;
+  height: 986px;
+  flex-shrink: 0;
+  background-image: url("resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 120px auto;
+}
+
+.grp82 h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.grp82 h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.grp82 p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.grp83 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  padding-top: 250px;
+}
+#singleimg {
+  width: 500px;
+}
+#doubleimg {
+  display: flex;
+}
+.grp81 {
+  max-width: 1320px;
+  height: 986px;
+  flex-shrink: 0;
+  margin: 120px auto;
+}
+.titles > h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.titles > h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.titles > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 896px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards > img {
+  padding: 5px;
+}
+
+.grp65 {
+  max-width: 1320px;
+  height: 616px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 120px auto;
+}
+
+.grp65 > h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+
+}
+.grp65 > p {
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs > input {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.inputs > button {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+}
+
+footer {
+  height: 609px;
+  flex-shrink: 0;
+  padding: 120px 140px;
+  background: #070211;
+}
+
+.fitme > p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  max-width: 375px;
+  display: flex;
+}
+
+.fico {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
